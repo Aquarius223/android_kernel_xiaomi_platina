@@ -389,11 +389,9 @@
 		pinctrl-1 = <&ts_int_output_low>;
 		pinctrl-2 = <&ts_int_output_high>;
 		pinctrl-3 = <&ts_int_input>;
-
 		reset-gpios = <&tlmm 66 0x0>;
 		irq-gpios = <&tlmm 67 0x2002>;
 		irq-flags = <0x2002>;
-
 		touchscreen-max-id = <10>;
 		touchscreen-size-x = <1080>;
 		touchscreen-size-y = <2160>;

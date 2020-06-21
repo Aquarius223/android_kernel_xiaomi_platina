@@ -114,5 +114,26 @@ all.config
 # Kdevelop4
 *.kdev4
 
+# out-kernel
+out
+
+# server-build
+build.sh
+
+# computer-gcc-build
+build-gcc.sh
+
+# computer-clang-build
+build-clang.sh
+
+# pornhub-video
+pornhub-video-temp
+
+# phone-build
+build-phone.sh
+
+# stic-modules
+stictools
+
 # fetched Android config fragments
 android/configs/android-*.cfg
